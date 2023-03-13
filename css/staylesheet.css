@@ -38,7 +38,7 @@ nav .btn-outline-dark:hover{
 
 /************* Home section ********************/
 #home{
-    background-image: url(/images/pexels-pixabay-459791.jpg);
+    background-image: url(images/pexels-pixabay-459791.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -81,7 +81,7 @@ font-family: 'Righteous';
 }
 /******************* Event section ********************************************/
 #events{
-background-image: url(/images/pexels-miguel-á-padriñán-1111317.jpg);
+background-image: url(images/pexels-miguel-á-padriñán-1111317.jpg);
 background-size: cover;
 background-attachment: fixed;
 }
