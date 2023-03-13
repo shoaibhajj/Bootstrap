@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto+Condensed&family=Ubuntu&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'lato';
+}
+/************ navbar ****************/
+.navbar-brand{
+    font-family: 'Pacifico';
+    font-size:35px;
+    color:lightcoral !important;
+}
+.logo2{
+    color:#00E8E8;
+}
+.nav-link{
+    font-size: 16px;
+    margin: 16px;
+    color: black !important;
+    font-family: 'Roboto Condensed';
+}
+.nav-link:hover {
+    color:#00E8E8 !important;
+}
+.active .nav-link{
+    color:#00E8E8 !important;
+}
+nav .btn-outline-dark{
+    border-color: darkgray;
+    padding: 7px;
+    background-color: transparent;
+    transition: all 500ms ease-in ;
+}
+nav .btn-outline-dark:hover{
+    background-color: #00E8E8; 
+}
+
+/************* Home section ********************/
+#home{
+    background-image: url(/images/pexels-pixabay-459791.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home .container-fluid{
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+#home h1 ,#home p{
+color: white;
+font-family: 'Righteous';
+}
+#home h1{
+    margin-bottom: 2%;
+    font-size: 400%;
+}
+#home p{
+    margin-bottom: 2%;
+    padding: auto;
+}
+#home .btn-1 ,.btn-2 {
+    margin: 1%;
+}
+/***************** Features section *****************************/
+
+#features .container{
+    padding-top: 2%;
+}
+#features p {
+    color:rgba(0, 0, 0, 0.59)
+}
+#features .p-top{
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.card-title{
+    padding: 4%;
+}
+/******************* Event section ********************************************/
+#events{
+background-image: url(/images/pexels-miguel-á-padriñán-1111317.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+#events h1 {
+    margin-top: 20%;
+    margin-bottom: 4%;
+    font-family: 'Righteous';
+    width: 80%;
+    color: whitesmoke;
+}
+#events p{
+    width: 80%;
+    font-family: 'Ubuntu';
+    color: whitesmoke;
+    margin-bottom: 7%;
+}
+#events .btn{
+    margin-bottom: 15%;
+    width: 30%;
+    padding: 2% 5%;
+}
+/*********** Section-3 ************************/
+#section-3 .container{
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+#section-3 i{
+    color: #00E8E8;
+    font-size: 300%;
+}
+#section-3 p {
+    color:rgba(0, 0, 0, 0.59)
+}
+/*************** section-4 ********************/
+#section-4{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#section-4 img{
+    
+    width:100%;
+}
+#section-4 h1,#section-4 p,#section-4 a {
+    font-family: 'Roboto Condensed';
+    margin-left: 10%;
+    color: white;
+    padding-right: 35%;
+    
+}
+#section-4 p {
+    padding-top: 5%;
+}
+#section-4 h1 {
+    padding-bottom: 5%;
+}
+#section-4 a {
+    color: #00E8E8;
+    text-decoration: none;
+    font-size: 200%;
+}
+/************** footer section ***************/
+#footer .icons i{
+    margin-right: 5%;
+    color: #dc3545;
+    cursor: pointer;
+    font-size: 150%;
+}
+.footer-h5{
+    color: #00e897;
+}
+@media(max-width:900px){
+    .input-group{
+        width: 90%;
+    }
+}
